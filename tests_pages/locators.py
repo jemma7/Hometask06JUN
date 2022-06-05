@@ -1,0 +1,22 @@
+import selenium 
+
+class LocatorsXpath: 
+    radio_button = '//*[@id="radio-btn-example"]/fieldset/label[1]/input'
+    static_dropdown = '//*[@id="autocomplete"]'  
+    dynamic_dropdown = '//*[@id="dropdown-class-example"]'
+    dropdown_option1 ='//*[@id="dropdown-class-example"]/option[1]'
+    checkbox = '//*[@id="checkBoxOption1"]'
+    open_window ='//*[@id="openwindow"]'
+    open_tab = '//*[@id="opentab"]'
+    alert_search = '//*[@id="name"]'
+    alert_button = '//*[@id="alertbtn"]'
+    confirm_button = '//*[@id="confirmbtn"]'
+    hide_button = '//*[@id="hide-textbox"]'
+    show_button = '//*[@id="show-textbox"]'
+    hide_show_displayed = '//*[@id="displayed-text"]'
+    scroll = '/html/body/div[3]/div[2]/fieldset[2]/div[1]'
+    hover = '//*[@id="mousehover"]'
+    hover_top = '/html/body/div[4]/div/fieldset/div/div/a[1]'
+    hover_reload = '/html/body/div[4]/div/fieldset/div/div/a[2]'
+    iframe = '/html/body/div/div[2]/section[1]'  
+    in_iframe = '//*[@id="courses-block"]/div[3]/div/div[1]/a/img'
